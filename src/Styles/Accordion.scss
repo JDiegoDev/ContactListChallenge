@@ -1,0 +1,43 @@
+.accordion {
+    &__selection {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: row;
+        width: 100%;
+        text-align: left;
+        cursor: pointer;
+        background-color: white;
+        border: 1px solid lightgray;
+        margin-right: 0;
+        padding: 0 15px;
+        height: 35px;
+        transition: 0.3s;
+    }
+
+    &__display-name {
+        display: flex;
+        gap: 5px;
+
+        > p {
+            font-weight: 300;
+        }
+
+        > span {
+            font-weight: 700;
+        }
+    }
+
+    &__preview {
+        display: flex;
+        gap: 5px;
+    }
+
+    &__panel {
+        width: 100%;
+        border: 1px solid lightgrey;
+        border-top: none;
+        padding: 0 15px;
+        overflow: hidden;
+    }
+}

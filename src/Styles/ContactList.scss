@@ -1,0 +1,22 @@
+.contact-list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+
+    &__header {
+        position: sticky;
+        top: 0;
+        background-color: #7a67ee;
+        display: flex;
+        padding: 3.5px 0;
+        justify-content: center;
+        > p {
+            color: #ffffff;
+            font-weight: 700;
+        }
+    }
+
+    &__container {
+        padding: 0 80px;
+    }
+}
