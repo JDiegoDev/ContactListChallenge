@@ -1,4 +1,4 @@
-# Hearsay Front End Challenge
+# Contact List Front End Challenge
 
 #####Author: Juan Diego Gimenez
 
